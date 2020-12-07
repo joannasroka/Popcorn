@@ -21,4 +21,5 @@ Android application - movie catalog.
 ### Deletion by swipe gesture
 After delete:
 
+
 <img src="screenshots/after_delete.jpg" height="500">
