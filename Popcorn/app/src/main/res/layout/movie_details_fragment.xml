@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?colorSecondary"
+    tools:context=".movieDetails.MovieDetailsFragment">
+
+    <ImageView
+        android:id="@+id/moviePosterImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/movieDetailsFavouriteButton"
+        app:layout_constraintEnd_toStartOf="@id/movieDetailsTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/movieDetailsTitle"
+        android:textColor="?attr/colorOnSecondary"
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/moviePosterImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="The shawshank redemption" />
+
+    <TextView
+        android:id="@+id/movieDetailsYear"
+        android:textColor="?attr/colorOnSecondary"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/movieDetailsTitle"
+        app:layout_constraintTop_toBottomOf="@id/movieDetailsTitle"
+        tools:text="Year: 1990" />
+
+    <TextView
+        android:id="@+id/movieDetailsCategory"
+        android:textColor="?attr/colorOnSecondary"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/movieDetailsYear"
+        app:layout_constraintTop_toBottomOf="@id/movieDetailsYear"
+        tools:text="Category: Action" />
+
+    <ImageView
+        android:id="@+id/movieDetailsFavouriteButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/movieDetailsCategory"
+        app:layout_constraintTop_toBottomOf="@id/movieDetailsCategory"
+        app:tint="?attr/colorPrimary"
+        tools:srcCompat="@android:drawable/btn_star_big_off" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/movieDetailsTabs"
+        android:background="?attr/colorSecondary"
+        app:tabTextColor="?attr/colorOnSecondary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/moviePosterImageView" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/movieDetailsViewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movieDetailsTabs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

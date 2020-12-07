@@ -1,0 +1,81 @@
+[
+  {
+    "name": "The Shawshank Redemption",
+    "year": 1994,
+    "category":"DRAMA",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "thumbnail": "shawshank_plakat",
+    "images": ["shawshank1", "shawshank2"],
+    "cast": ["Morgan Freeman", "Tim Robbins", "James Whitmore", "Bob Gunton"]
+  },
+
+  {
+    "name": "Se7en",
+    "year": 1995,
+    "category":"THRILLER",
+    "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+    "thumbnail": "seven_plakat",
+    "images": ["seven1", "seven2"],
+    "cast": ["Brad Pitt", "Morgan Freeman", "Kevin Spacey", "Gwyneth Paltrow"]
+  },
+
+  {
+    "name": "Some Like It Hot",
+    "year": 1959,
+    "category":"COMEDY",
+    "description": "After two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in.",
+    "thumbnail": "some_like_it_hot_plakat",
+    "images": ["somelikeithot1", "somelikeithot2"],
+    "cast": ["Marilyn Monroe", "Tony Curtis", "Jack Lemmon"]
+  },
+
+  {
+    "name": "The Dark Knight",
+    "year": 2008,
+    "category":"ACTION",
+    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "thumbnail": "thedarkknight_plakat",
+    "images": ["thedarkknight1", "thedarkknight2"],
+    "cast": ["Christian Bale", "Heath Ledger", "Gary Oldman", "Michael Caine"]
+  },
+
+  {
+    "name": "The Shining",
+    "year": 1980,
+    "category":"HORROR",
+    "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+    "thumbnail": "shining_poster",
+    "images": ["shining1", "shining2"],
+    "cast": ["Jack Nicholson", "Shelley Duvall", "Danny Lloyd", "Scatman Crothers"]
+  },
+
+  {
+    "name": "The Godfather",
+    "year": 1972,
+    "category":"DRAMA",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "thumbnail": "godfather_poster",
+    "images": ["godfather1", "godfather2"],
+    "cast": ["Al Pacino", "Marlon Brando", "Diane Keaton", "James Caan"]
+  },
+
+  {
+    "name": "Shutter Island",
+    "year": 2010,
+    "category":"THRILLER",
+    "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+    "thumbnail": "shutterisland_poster",
+    "images": ["shutterisland1", "shutterisland2"],
+    "cast": ["Leonardo DiCaprio", "Mark Ruffalo", "Ben Kingsley", "Michelle Williams"]
+  },
+
+  {
+    "name": "The Matrix",
+    "year": 1999,
+    "category":"ACTION",
+    "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "thumbnail": "matrix_poster",
+    "images": ["matrix1", "matrix2"],
+    "cast": ["Keanu Reeves", "Laurence Fishburne", "Hugo Weaving"]
+  }
+]
