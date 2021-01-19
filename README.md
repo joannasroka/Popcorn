@@ -10,7 +10,6 @@ Android application - movie catalog.
 <img src="screenshots/4.jpg" height="500">
 <img src="screenshots/4a.jpg" height="500">
 
-
 ### Movie details
 <img src="screenshots/5.jpg" height="500">
 <img src="screenshots/6.jpg" height="500">
