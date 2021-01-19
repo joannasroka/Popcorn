@@ -1,5 +1,5 @@
 # Popcorn
-Android application - movie catalog.
+Android application - movie catalog. Tested on Xiaomi Redmi 6.
 
 ### List of movies
 <img src="screenshots/1.jpg" height="500">
